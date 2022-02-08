@@ -10,3 +10,5 @@ You can control the brightness or switching ON/OFF by using:
   or by using keywords:
   -> USB 2.0 to serial terminal on the PC
   -> Using a Bluetooth device 
+  
+Original project: https://os.mbed.com/users/nzupcic/code/PWM_LED_Lights/
