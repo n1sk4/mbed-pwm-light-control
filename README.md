@@ -41,6 +41,12 @@ Some of it's features are:
   - High level C/C++ SDK
   - Cookbook of published libraries and projects
 
+**Schematics and datasheets**
+[Mbed NXP LPC1768 Schematics](https://os.mbed.com/media/uploads/chris/mbed-005.1.pdf)
+
+[NXP LPC1768 Data Sheet](https://www.nxp.com/docs/en/data-sheet/LPC1769_68_67_66_65_64_63.pdf)
+
+
 Pulse width modulation
 ----------------------
 This project is using PWM to control the brightness of the LED lights. That is achieved by
