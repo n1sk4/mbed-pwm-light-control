@@ -1,4 +1,6 @@
 # mbed-pwm-light-control
+About
+=====
 PWM light control using Mbed LPC1768
 
 Light control by using PWM signal to regulate the brightness of the LED light strip.
@@ -11,4 +13,4 @@ or by using keywords:
 -> USB 2.0 to serial terminal on the PC;
 -> Using a Bluetooth device; 
   
-Original project: https://os.mbed.com/users/nzupcic/code/PWM_LED_Lights/
+*Original project: [PWM LED lights](https://os.mbed.com/users/nzupcic/code/PWM_LED_Lights/)*
