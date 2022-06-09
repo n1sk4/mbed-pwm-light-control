@@ -18,6 +18,17 @@ Controlling integrated LED lights on Mbed NXP LPC1768 prototype board.
 
 This project requires only the use of an rotary incremental encoder and Mbed NXP LPC1768.
 
+Connection diagram
+------------------
+Without using the pin p20 for PWM output, this is the basic wiring diagram between an encoder and Mbed.
+If the Mbed is connected with the PC via micro USB, then 3.3V DC can be used to power up the encoder.
+If an external power source is used (e.g., battery) then the 3.3V DC should be used to power up the encoder.
+
+⚠️ Important to note, the encoder and Mbed MUST be on the same GND potential ⚠️
+
+![image](https://user-images.githubusercontent.com/92214769/172785864-8cd87058-1ca7-494e-829f-bcbc8d65ce45.png)
+
+
 Code example
 ------------
 <pre>
