@@ -1,4 +1,12 @@
 # Mbed PWM light control
+Short project I've done as an Electrical engineering student to showcase the use of:
+- Classes
+- Interrupts
+- Tickers
+- Timers
+- Debouncing mechanical switches
+- PWM control
+
 About
 =====
 PWM light control using Mbed LPC1768
@@ -11,6 +19,33 @@ and the signal travels trough the MOSFET switch to the LED strip.
   
   
 *Original project: [PWM LED lights](https://os.mbed.com/users/nzupcic/code/PWM_LED_Lights/)*
+
+Microcontroller Mbed NXP LPC1768
+--------------------------------
+More about this microcontroller and platform can be found [here](https://os.mbed.com/platforms/mbed-LPC1768/)
+The image demonstrates the basic pinout layout of the Mbed prototyping board featuring LPC1768 as the microcontroller.
+
+![](https://os.mbed.com/media/platforms/lpc1768_pinout.png)
+
+Some of it's features are:
+* NXP LPC1768 MCU
+  - High performance ARM® Cortex™-M3 Core
+  - 96MHz, 32KB RAM, 512KB FLASH
+  - Ethernet, USB Host/Device, 2xSPI, 2xI2C, 3xUART, CAN, 6xPWM, 6xADC, GPIO
+* Prototyping form-factor
+  - 40-pin 0.1" pitch DIP package, 54x26mm
+  - 5V USB or 4.5-9V supply
+  - Built-in USB drag 'n' drop FLASH programmer
+* mbed.org Developer Website
+  - Lightweight Online Compiler
+  - High level C/C++ SDK
+  - Cookbook of published libraries and projects
+
+Pulse width modulation
+----------------------
+This project is using PWM to control the brightness of the LED lights. That is achieved by
+modulating the width of the pulses that are created at the microcontroller Analog output pin.
+Mbed NXP LPC1768 has six Analog outputs that are all capable of producing PWM signal.
 
 Simple project
 ==============
