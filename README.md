@@ -15,8 +15,9 @@ Light control by using PWM signal to regulate the brightness of the LED light st
 The PWM signal is connected to the Power source by using some kind of Galvanic isolation,
 and the signal travels trough the MOSFET switch to the LED strip.
 
-![](https://os.mbed.com/media/uploads/nzupcic/blockschematics.png)
-  
+<p align="center">
+<img src="https://os.mbed.com/media/uploads/nzupcic/blockschematics.png" />
+</p>
   
 *Original project: [PWM LED lights](https://os.mbed.com/users/nzupcic/code/PWM_LED_Lights/)*
 
@@ -25,7 +26,9 @@ Microcontroller Mbed NXP LPC1768
 More about this microcontroller and platform can be found [here](https://os.mbed.com/platforms/mbed-LPC1768/)
 The image demonstrates the basic pinout layout of the Mbed prototyping board featuring LPC1768 as the microcontroller.
 
-![](https://os.mbed.com/media/platforms/lpc1768_pinout.png)
+<p align="center">
+<img src="https://os.mbed.com/media/platforms/lpc1768_pinout.png" />
+</p>
 
 Some of it's features are:
 * NXP LPC1768 MCU
@@ -68,7 +71,7 @@ If an external power source is used (e.g., battery) then the 3.3V DC should be u
 ⚠️ Important to note, the encoder and Mbed MUST be on the same GND potential ⚠️
 
 <p align="center">
-![image](https://user-images.githubusercontent.com/92214769/172785864-8cd87058-1ca7-494e-829f-bcbc8d65ce45.png)
+<img src="https://user-images.githubusercontent.com/92214769/172785864-8cd87058-1ca7-494e-829f-bcbc8d65ce45.png" />
 </p>
 
 Code example
