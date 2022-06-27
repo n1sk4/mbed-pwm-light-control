@@ -67,8 +67,9 @@ If an external power source is used (e.g., battery) then the 3.3V DC should be u
 
 ⚠️ Important to note, the encoder and Mbed MUST be on the same GND potential ⚠️
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/92214769/172785864-8cd87058-1ca7-494e-829f-bcbc8d65ce45.png)
-
+</p>
 
 Code example
 ------------
